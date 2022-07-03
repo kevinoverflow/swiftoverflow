@@ -15,7 +15,7 @@ title: 'swiftoverflow'
 description: 'Articles, Tutorials and Tips about iOS Development by Kevin Hoàng.'
 
 # The subpath of your site, e.g. /blog, for generating urls.
-baseurl: ''
+baseurl: '/swiftoverflow'
 
 # The base hostname & protocol of your site for where absolute urls are needed.
 url: 'https://scriptor-jekyll.netlify.com'
