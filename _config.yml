@@ -1,0 +1,77 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site language
+lang: en-US
+
+# Site title
+title: 'swiftoverflow'
+
+# A description of your site for meta tag, search engine results.
+description: 'Articles, Tutorials and Tips about iOS Development by Kevin Hoàng.'
+
+# The subpath of your site, e.g. /blog, for generating urls.
+baseurl: ''
+
+# The base hostname & protocol of your site for where absolute urls are needed.
+url: 'https://scriptor-jekyll.netlify.com'
+
+# Favicon
+favicon32: images/favicon-32x32.png
+favicon16: images/favicon-16x16.png
+apple_touch_icon: images/apple-touch-icon.png
+webmanifest: images/site.webmanifest
+mask_icon: images/safari-pinned-tab.svg
+mask_icon_color: 5bbad5
+msapplication_TileColor: da532c
+theme_color: ffffff
+
+# Google Analytics id, e.g. "UA-NNNNNNNN-N"
+google_analytics: ''
+
+# Site navigation - each item must have a title and a url.
+navigation:
+   - text: Home
+     url: /
+   - text: About
+     url: /about/
+   - text: Style Guide
+     url: /style-guide/
+   - text: Tags
+     url: /tags/
+   - text: Download
+     url: https://github.com/JustGoodThemes/Scriptor-Jekyll-Theme
+
+# The shortname for your Disqus site to enable comments.
+disqus: justgoodthemes
+
+# Colors
+accent_color: '#2d72d9'
+
+# Site footer
+footer:
+   content: '&copy; Scriptor all rights reserved. Theme by [JustGoodThemes](https://www.justgoodthemes.com).'
+   has_social: true
+
+# Plugins
+plugins:
+   - jekyll-paginate
+
+# http://jekyllrb.com/docs/pagination/
+paginate: 3
+paginate_path: '/page:num/'
+
+# Permalinks
+permalink: /:title
+
+# Conversion
+markdown: kramdown
+
+# Sass
+sass:
+   sass_dir: _sass
+   style: compressed
